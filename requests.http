@@ -1,0 +1,28 @@
+GET http://localhost:3000/books HTTP/1.1
+
+###
+
+GET http://localhost:3000/books/2 HTTP/1.1
+
+###
+
+POST http://localhost:3000/books HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Libro 3",
+    "author": "Apellido, Nombre",
+    "year": 2001
+}
+
+###
+PUT http://localhost:3000/books/4 HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "Alvarez, Pedro"
+
+}
+###
+DELETE http://localhost:3000/books/3 HTTP/1.1
+

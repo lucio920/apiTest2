@@ -1,0 +1,28 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "name": "Book 1",
+            "author": "Cantero, Jorge",
+            "year": 2005
+        },
+        {
+            "id": 2,
+            "name": "Book 2",
+            "author": "Galicio, Jose",
+            "year": 2004
+        },
+        {
+            "id": 3,
+            "title": "Book 3",
+            "author": "Perez, Javier",
+            "year": 2001
+        },
+        {
+            "id": 4,
+            "title": "Libro 4",
+            "author": "Apellido, Nombre",
+            "year": 2001
+        }
+    ]
+}
